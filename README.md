@@ -1,9 +1,11 @@
-# Webpack with JSON Server Application Boilerplate
+=============== Practice: Product Ordering ===============
 
-## Setup
+Your task is to simulate a product listing page like you would find on Etsy, Amazon, or Ebay. This application should implement the following features.
 
-1. Fork (do not clone) this repository. Click the Fork button in the upper-right hand corner of the page.
-1. Clone your fork of this repository to your local machine with `git clone`.
-1. Open the `package.json` file and change the `name` property to the name of your application, and `author` to  your name.
-1. From your command line, be in the main project directory and run `npm install`.
-1. To start your application, run `npm start`.
+1. Display an individual product component. Each product should have a title, short description, price, quantity, and an image.
+
+2. Display the application information in a navigation bar at the top of the page.
+    i. The name of the company - Betsy
+    ii. Three links: Categories, Orders, and Log Out (these links won't actually do anything, you're just practicing making the navigation bar a component)
+
+3. Display a review list component that contains a maximum of 3 product review components beneath a product. You can use hipster ipsum for the reviews themselves.

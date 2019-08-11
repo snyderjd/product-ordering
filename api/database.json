@@ -1,21 +1,72 @@
 {
-  "posts": [
+  "products" : [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "title": "Rice Cooker",
+      "description": "Lorem ipsum dolor amet mumblecore venmo jean shorts, flannel cronut hammock chicharrones bitters direct trade. Blue bottle wayfarers adaptogen direct trade celiac hell of microdosing aesthetic organic before they sold out, mixtape bushwick cloud bread kale chips. Pinterest cronut austin enamel pin taxidermy narwhal. Raclette tousled PBR&B cardigan authentic pop-up forage four loko helvetica occupy hashtag. Live-edge glossier vaporware, hella everyday carry tilde chicharrones migas.",
+      "price": 30,
+      "quantity": 10,
+      "image": "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiV5fyiyPvjAhUrWN8KHSlkCcYQjRx6BAgBEAQ&url=http%3A%2F%2Fwww.aroma-housewares.com%2Fkitchen%2Fappliances%2FARC-954SBD.html&psig=AOvVaw17zehyxqcrJ9r2XqcWEOkp&ust=1565638520659943"
     },
     {
       "id": 2,
-      "title": "json-server",
-      "author": "typicode"
+      "title": "Frying Pan",
+      "description": "Lorem ipsum dolor amet mumblecore venmo jean shorts, flannel cronut hammock chicharrones bitters direct trade. Blue bottle wayfarers adaptogen direct trade celiac hell of microdosing aesthetic organic before they sold out, mixtape bushwick cloud bread kale chips. Pinterest cronut austin enamel pin taxidermy narwhal. Raclette tousled PBR&B cardigan authentic pop-up forage four loko helvetica occupy hashtag. Live-edge glossier vaporware, hella everyday carry tilde chicharrones migas.",
+      "price": 20,
+      "quantity": 15,
+      "image": "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjn9O-0yPvjAhXHdN8KHQXPCIEQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.lecreuset.com%2Fnew-nonstick-fry-pan&psig=AOvVaw2zNVm_xY2kCtq1nKsmkq_1&ust=1565638592455139"
+    },
+    {
+      "id": 3,
+      "title": "Coffee Maker",
+      "description": "Lorem ipsum dolor amet mumblecore venmo jean shorts, flannel cronut hammock chicharrones bitters direct trade. Blue bottle wayfarers adaptogen direct trade celiac hell of microdosing aesthetic organic before they sold out, mixtape bushwick cloud bread kale chips. Pinterest cronut austin enamel pin taxidermy narwhal. Raclette tousled PBR&B cardigan authentic pop-up forage four loko helvetica occupy hashtag. Live-edge glossier vaporware, hella everyday carry tilde chicharrones migas.",
+      "price": 40,
+      "quantity": 5,
+      "image": "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjjyurGyPvjAhWyg-AKHX8sAjkQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.cuisinart.com%2Fshopping%2Fappliances%2Fcoffee_makers%2Fdcc-4000&psig=AOvVaw1l_ybf_7mL1ylnVUfiq4SQ&ust=1565638625226128"
     }
   ],
-  "comments": [
+  "reviews" : [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "product": "Rice Cooker",
+      "name": "Brian",
+      "rating": "3 stars",
+      "content": "Lorem ipsum dolor amet mumblecore venmo jean shorts, flannel cronut hammock chicharrones bitters direct trade. Blue bottle wayfarers adaptogen direct trade celiac hell of microdosing aesthetic organic before they sold out, mixtape bushwick cloud bread kale chips. Pinterest cronut austin enamel pin taxidermy narwhal. Raclette tousled PBR&B cardigan authentic pop-up forage four loko helvetica occupy hashtag. Live-edge glossier vaporware, hella everyday carry tilde chicharrones migas."
+    },
+    {
+      "id": 2,
+      "product": "Frying Pan",
+      "name": "Curtis",
+      "rating": "4 stars",
+      "content": "Lorem ipsum dolor amet mumblecore venmo jean shorts, flannel cronut hammock chicharrones bitters direct trade. Blue bottle wayfarers adaptogen direct trade celiac hell of microdosing aesthetic organic before they sold out, mixtape bushwick cloud bread kale chips. Pinterest cronut austin enamel pin taxidermy narwhal. Raclette tousled PBR&B cardigan authentic pop-up forage four loko helvetica occupy hashtag. Live-edge glossier vaporware, hella everyday carry tilde chicharrones migas."      
+    },
+    {
+      "id": 3,
+      "product": "Coffee Maker",
+      "name": "Curtis",
+      "rating": "3 stars",
+      "content": "Lorem ipsum dolor amet mumblecore venmo jean shorts, flannel cronut hammock chicharrones bitters direct trade. Blue bottle wayfarers adaptogen direct trade celiac hell of microdosing aesthetic organic before they sold out, mixtape bushwick cloud bread kale chips. Pinterest cronut austin enamel pin taxidermy narwhal. Raclette tousled PBR&B cardigan authentic pop-up forage four loko helvetica occupy hashtag. Live-edge glossier vaporware, hella everyday carry tilde chicharrones migas."     
+    },
+    {
+      "id": 4,
+      "product": "Rice Cooker",
+      "name": "Matt",
+      "rating": "3.5 stars",
+      "content": "Lorem ipsum dolor amet mumblecore venmo jean shorts, flannel cronut hammock chicharrones bitters direct trade. Blue bottle wayfarers adaptogen direct trade celiac hell of microdosing aesthetic organic before they sold out, mixtape bushwick cloud bread kale chips. Pinterest cronut austin enamel pin taxidermy narwhal. Raclette tousled PBR&B cardigan authentic pop-up forage four loko helvetica occupy hashtag. Live-edge glossier vaporware, hella everyday carry tilde chicharrones migas."
+    },
+    {
+      "id": 5,
+      "product": "Coffee Maker",
+      "name": "Michael",
+      "rating": "4 stars",
+      "content": "Lorem ipsum dolor amet mumblecore venmo jean shorts, flannel cronut hammock chicharrones bitters direct trade. Blue bottle wayfarers adaptogen direct trade celiac hell of microdosing aesthetic organic before they sold out, mixtape bushwick cloud bread kale chips. Pinterest cronut austin enamel pin taxidermy narwhal. Raclette tousled PBR&B cardigan authentic pop-up forage four loko helvetica occupy hashtag. Live-edge glossier vaporware, hella everyday carry tilde chicharrones migas."   
+    },
+    {
+      "id": 6,
+      "product": "Frying Pan",
+      "name": "Michael",
+      "rating": "1 stars",
+      "content": "Lorem ipsum dolor amet mumblecore venmo jean shorts, flannel cronut hammock chicharrones bitters direct trade. Blue bottle wayfarers adaptogen direct trade celiac hell of microdosing aesthetic organic before they sold out, mixtape bushwick cloud bread kale chips. Pinterest cronut austin enamel pin taxidermy narwhal. Raclette tousled PBR&B cardigan authentic pop-up forage four loko helvetica occupy hashtag. Live-edge glossier vaporware, hella everyday carry tilde chicharrones migas."     
     }
   ],
   "profile": {

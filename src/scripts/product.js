@@ -7,6 +7,8 @@ const product = Object.create({
                     <h4>Price: ${product.price}</h4>
                     <h4>Quantity: ${product.quantity}</h4>
                     <img src="${product.image}" alt="product.title" picture>
+                    <h4>Reviews</h4>
+                    <article class="reviews__container"></article>
                 </section>`;
     },
     addToDOM: (container, HTMLString) => {

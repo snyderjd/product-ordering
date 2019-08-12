@@ -7,7 +7,6 @@ const productList = Object.create({
 
         productData.getProducts().then(parsedProducts => {
             parsedProducts.forEach(prod => {
-                console.log(prod);
                 const HTMLRepresentation = product.createHTML(prod);
                 product.addToDOM(productContainer, HTMLRepresentation);
             });
